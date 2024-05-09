@@ -12,5 +12,5 @@ To run the code, it doesn't need any special gimmicks. It should work perfectly 
 
 I hope my snake game is enjoyable to you all!!!
 
-<img width="594" alt="Screenshot 2024-05-09 at 2 24 31 AM" src="https://github.com/rdelacruz8356/snakeGame/assets/157554594/9833c6a7-c529-4eb4-beb0-f7fd4250ea32">
+<img width="601" alt="Screenshot 2024-05-09 at 3 07 17 AM" src="https://github.com/rdelacruz8356/snakeGame/assets/157554594/2066e8cc-d2b3-435a-829a-0e1febda767d">
 
