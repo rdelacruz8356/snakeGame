@@ -164,8 +164,8 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
         }
         //makes a new tile follow the head of the snake
         if (!bodySnake.isEmpty()) {
-            bodySnake.getFirst().x = headOfSnake.x - moveX; //
-            bodySnake.getFirst().y = headOfSnake.y - moveY;
+            bodySnake.getFirst().x = headOfSnake.x - moveX; //the x position which follows the head and moves accordingly
+            bodySnake.getFirst().y = headOfSnake.y - moveY; //the y position which follows the head and moves accordingly
         }
         //generates a new apple if the tail overlaps with an apple
         for(Tile bodySnake : bodySnake) {
