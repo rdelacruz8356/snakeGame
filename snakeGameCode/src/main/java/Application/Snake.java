@@ -151,9 +151,9 @@ public class Snake extends JPanel implements ActionListener, KeyListener {
                 initialSpeed(); // speed of the snake after eating an apple
             }
         }
-        for (int i = bodySnake.size() - 1; i >= 0; i--) {
+        for (int i = bodySnake.size() - 1; i > 0; i--) {
             Tile tailPart = bodySnake.get(i);
-            if (i == 0) {
+            if (headOfSnake.x == 0 || headOfSnake.y == 0) {
                 tailPart.x = headOfSnake.x; //get the x position of the headOfSnake
                 tailPart.y = headOfSnake.y; //get the y position of the headOfSnake
             } else {
